@@ -1,12 +1,15 @@
 import React from 'react';
-// import { Avatar, calender, chat, cog, earth, home, LeftBg, notification, person } from '../../constant/Images';
+import Card from '../Card/Card';
+// import { Avatar, calender, chat, cog, earth, home, notification, person } from '../../constant/Images';
 import './LeftSide.css';
 
 const LeftSide = () => {
     return (
-        <div>
 
-        </div>
+        <>
+            <Card />
+        </>
+
     )
 }
 

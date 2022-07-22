@@ -2,11 +2,12 @@ import React from 'react';
 
 
 const RightSide = () => {
-    return (
-        <div>
+  return (
+    <section>
 
-        </div>
-    )
+
+    </section>
+  )
 }
 
 export default RightSide;
