@@ -1,41 +1,44 @@
 import React from 'react';
-import { Avatar, calender, chat, cog, earth, feed, notification, person } from '../../constant/Images';
+import { Avatar, calender, chat, cog, earth, feed, LeftBg, notification, person } from '../../constant/Images';
 import './Card.css';
 
 const Card = () => {
     return (
 
-        <article className='mt-5'>
+        <article className='mt-2'>
             <div className="card">
-                <div className="card-heading">
+                <div className="card-header" style={{
+                    background: `url(${LeftBg})`, backgroundPosition: `center`, backgroundSize: `cover`, backgroundRepeat: `no-repeat`,
+                }}>
 
-                    <img src={Avatar} alt="profile-logo" className="profile-logo" />
                 </div>
-
                 <div className="card-body">
-                    <h5 className="card-title">Sam Lanson</h5>
-                    <small className="card-subtitle mb-2">Web Developer at Webestica</small>
-                    <p className="mt-3">I'd love to change the world, but they won’t give me the source code.</p>
+                    <div className="profile-img profile-lg ms-5 mt-n5 mb-3">
+                        <a href="/"><img class="profile-img rounded border border-white border-3" src={Avatar} alt="avatar-img" /></a>
+                    </div>
+                    <h5 className="card-title text-center">Sam Lanson</h5>
+                    <p className="card-subtitle mb-2 fw-light text-center">Web Developer at Webestica</p>
+                    <p className="mt-3 fw-light text-center">I'd love to change the world, but they won’t give me the source code.</p>
 
                     <div className="hstack gap-2 gap-xl-3 justify-content-center">
 
                         <div>
                             <h6 className="mb-0 fw-bold">256</h6>
-                            <small>Post</small>
+                            <small className="fw-light">Post</small>
                         </div>
 
                         <div className="vr"></div>
 
                         <div>
                             <h6 className="mb-0 fw-bold">2.5K</h6>
-                            <small>Followers</small>
+                            <small className="fw-light">Followers</small>
                         </div>
 
                         <div className="vr"></div>
 
                         <div>
                             <h6 className="mb-0 fw-bold">365</h6>
-                            <small>Following</small>
+                            <small className="fw-light">Following</small>
                         </div>
                     </div>
                     <hr />
@@ -74,7 +77,7 @@ const Card = () => {
                 </li>
             </ul>
             <p className="small text-center mt-1">©2022 <a className="text-body text-decoration-none" target="_blank" href="/"> Webestica </a></p>
-        </article>
+        </article >
     )
 }
 

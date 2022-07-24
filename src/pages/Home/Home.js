@@ -4,20 +4,19 @@ import RightSide from '../../components/RightSide/RightSide';
 
 
 
+
 const Home = () => {
     return (
 
         <div className="container">
             <div className="row">
                 <div className="col-lg-3">
-
                     <LeftSide />
                 </div>
                 <div className="col-md-8 col-lg-6">
 
                 </div>
                 <div className="col-lg-3">
-
                     <RightSide />
                 </div>
 

@@ -7,6 +7,7 @@ import calender from '../assets/images/calendar-outline-filled.svg';
 import chat from '../assets/images/chat-outline-filled.svg';
 import notification from '../assets/images/notification-outlined-filled.svg';
 import cog from '../assets/images/cog-outline-filled.svg';
+import cardProfile from '../assets/images/cardProfile.jpg';
 
 export {
     Avatar,
@@ -17,5 +18,6 @@ export {
     calender,
     chat,
     notification,
-    cog
+    cog,
+    cardProfile
 };
