@@ -1,0 +1,7 @@
+.text-MainSecondCard {
+    color: black;
+}
+
+.text-MainSecondCard:hover {
+    color: #0f6fec;
+}

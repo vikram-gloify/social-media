@@ -1,5 +1,6 @@
 import React from 'react';
 import LeftSide from '../../components/LeftSide/LeftSide';
+import MainContent from '../../components/MainContent/MainContent';
 import RightSide from '../../components/RightSide/RightSide';
 
 
@@ -14,6 +15,7 @@ const Home = () => {
                     <LeftSide />
                 </div>
                 <div className="col-md-8 col-lg-6">
+                    <MainContent />
 
                 </div>
                 <div className="col-lg-3">

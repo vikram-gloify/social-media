@@ -1,0 +1,7 @@
+.card-down {
+    color: black;
+}
+
+.card-down:hover {
+    color: #0f6fec;
+}

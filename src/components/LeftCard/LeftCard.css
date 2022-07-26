@@ -1,8 +1,3 @@
-.profile-logo {
-    width: 100%;
-    height: 100%;
-}
-
 .svg {
     width: 15%;
     margin: 5%;
@@ -12,26 +7,35 @@
     height: 50px !important;
 }
 
-.profile-lg {
-    height: 4rem;
-    width: 4rem;
-}
+
 
 .mt-n5 {
     margin-top: -3rem !important;
 }
 
-.mb-3 {
-    margin-bottom: 1rem !important;
-}
 
-.profile-img {
-    height: 3rem;
-    width: 3rem;
-    margin-top: -54px;
+.profile-left-img {
+    height: 4rem;
+    width: 4rem;
     margin-left: 35px;
-    position: relative;
+    position: absolute;
     display: inline-block;
     -ms-flex-negative: 0 !important;
     flex-shrink: 0 !important;
+}
+
+.text-head {
+    margin-top: 30px;
+}
+
+.text-head:hover {
+    color: #0f6fec;
+}
+
+.card-down {
+    color: black;
+}
+
+.card-down:hover {
+    color: #0f6fec;
 }
