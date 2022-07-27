@@ -9,23 +9,24 @@
 
 
 
-.mt-n5 {
-    margin-top: -3rem !important;
+.avatar-profile {
+    margin-top: -2.3rem !important;
 }
 
 
-.profile-left-img {
+.avatar-profile {
     height: 4rem;
     width: 4rem;
-    margin-left: 35px;
+    margin-left: 15px;
     position: absolute;
     display: inline-block;
     -ms-flex-negative: 0 !important;
     flex-shrink: 0 !important;
+    border: 3px #fff solid;
 }
 
 .text-head {
-    margin-top: 30px;
+    margin-top: 40px;
 }
 
 .text-head:hover {
@@ -33,9 +34,17 @@
 }
 
 .card-down {
-    color: black;
+    color: #14191e;
 }
 
 .card-down:hover {
     color: #0f6fec;
+}
+
+h6 {
+    color: #14191e;
+}
+
+.card-title {
+    color: #14191e;
 }

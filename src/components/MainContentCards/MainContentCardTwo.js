@@ -4,17 +4,18 @@ import './MainContentCardsOne.css';
 
 const MainContentCardTwo = () => {
     return (
-        <div><div className="card">
-            <div className="card-header">
+        <div className="card">
+            <div className="card-header bootstrap-header">
                 <div className="d-flex align-items-center justify-content-between">
                     <div className="d-flex align-items-center">
-                        <div className="card-header">
-                            {/* <a href="/">  </a> */}
-                            <img className="avatar-img rounded-circle" src={bootstrap} alt="bootstrap" />
+                        <div className="avatar me-2">
+                            <a href="/">
+                                <img className="avatar-img rounded-circle" src={bootstrap} alt="bootstrap" />
+                            </a>
                         </div>
                         <div>
-                            <h6 className="card-title mb-0"><a href="/" className="Bootstrap"> Bootstrap: Front-end framework </a></h6>
-                            <a href="/" className="mb-0 text-body">Sponsored <i className="bi bi-info-circle ps-1" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="top" data-bs-content="You're seeing this ad because your activity meets the intended audience of our site." data-bs-original-title="" title=""></i> </a>
+                            <h6 className="card-title mb-0"><a href="/" className="bootstrap-a text-decoration-none"> Bootstrap: Front-end framework </a></h6>
+                            <a href="/" className="mb-0 text-body sponsored">Sponsored <i className="bi bi-info-circle ps-1 sponsored" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="top" data-bs-content="You're seeing this ad because your activity meets the intended audience of our site." data-bs-original-title="" title=""></i> </a>
                         </div>
                     </div>
                     <div className="dropdown">
@@ -45,7 +46,7 @@ const MainContentCardTwo = () => {
             </div>
 
 
-        </div></div>
+        </div>
     )
 }
 

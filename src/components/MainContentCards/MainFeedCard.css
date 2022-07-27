@@ -1,0 +1,39 @@
+/* .avatar-xs {
+    height: 2.1875rem;
+    width: 2.1875rem;
+} */
+
+.judy-text {
+    color: #29292e;
+}
+
+p {
+    margin-top: 5px;
+    margin-bottom: 1rem;
+    font-size: 15px;
+}
+
+.nav-pills.nav-pills-light .nav-link.active {
+    background-color: #e4e6e8;
+}
+
+.nav .nav-item .nav-link.active {
+    color: #0f6fec;
+}
+
+.nav-fill .nav-item .nav-link,
+.nav-justified .nav-item .nav-link {
+    width: 100%;
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
+    color: #fff;
+    background-color: #0d6efd;
+}
+
+.nav #item-hover:hover {
+    background-color: #e4e6e8;
+    border-radius: 5px;
+    padding: 0;
+}

@@ -1,17 +1,20 @@
 import React from 'react'
+import CarouselOne from '../Carousel/CarouselOne';
+import AppleCard from '../MainContentCards/AppleCard';
 import MainContentCardsOne from '../MainContentCards/MainContentCardsOne';
 import MainContentCardTwo from '../MainContentCards/MainContentCardTwo';
+import MainFeedCard from '../MainContentCards/MainFeedCard';
 import MainSecondCard from '../MainSecondCard/MainSecondCard';
-import TinySlider from '../TinySlider/TinySlider';
+
 
 const MainContent = () => {
     return (
-        <section className="container">
-            <div className="row">
+        <section className="container-fluid">
+            <div className="mt-3">
                 <div className="col">
-                    <TinySlider />
+                    <CarouselOne />
                 </div>
-                <div className="row mt-3">
+                <div className="mt-3">
                     <div className="col">
 
                         <MainSecondCard />
@@ -19,7 +22,7 @@ const MainContent = () => {
                     </div>
 
                 </div>
-                <div className="row mt-3">
+                <div className="mt-3">
                     <div className="col">
 
                         <MainContentCardsOne />
@@ -27,11 +30,24 @@ const MainContent = () => {
                     </div>
 
                 </div>
-                <div className="row mt-3">
+                <div className="mt-3">
                     <div className="col">
 
                         <MainContentCardTwo />
 
+                    </div>
+
+                </div>
+                <div className="mt-3">
+                    <div className="col">
+
+                        <MainFeedCard />
+                    </div>
+
+                </div>
+                <div className="mt-3">
+                    <div className="col">
+                        <AppleCard />
                     </div>
 
                 </div>

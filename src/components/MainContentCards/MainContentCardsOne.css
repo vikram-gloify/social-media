@@ -64,38 +64,21 @@ textarea {
     overflow-wrap: break-word;
 }
 
-.Bootstrap {
-    color: black;
-    text-decoration: none;
-}
 
-.text-body {
-    color: black;
-    text-decoration: none;
-}
-
-.avatar {
-    height: 3rem;
-    width: 5rem;
-    position: relative;
-    display: inline-block;
-    -ms-flex-negative: 0 !important;
-    flex-shrink: 0 !important;
-}
 
 .lori-ferguson {
     color: #29292e;
     text-decoration: none;
 }
 
-.comment {
-    color: #29292e;
-    text-decoration: none;
+/* Profile*/
+.lori-img {
+    border: #0f6fec 2px solid;
+
 }
 
-.share {
-    color: #29292e;
-    text-decoration: none;
+.billy-img {
+    border: #0f6fec 2px solid;
 }
 
 .flip-horizontal {
@@ -116,4 +99,57 @@ textarea {
 .like {
     color: #29292e;
 
+}
+
+.position-relative {
+    position: relative !important;
+}
+
+span {
+    color: #676a79;
+}
+
+small {
+    color: #676a79;
+}
+
+p {
+    color: #676a79;
+}
+
+.nav-link {
+    display: inline-block;
+    padding: 0.25rem 0.75rem;
+    color: #676a79;
+    -webkit-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
+}
+
+.active {
+    color: #0f6fec;
+}
+
+.card-img:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    border: 2px solid #0f6fec;
+    z-index: -1;
+}
+
+.bootstrap-a {
+    color: #29292e;
+}
+
+.sponsored {
+    color: #676a79 !important;
+    text-decoration: none;
+}
+
+.bootstrap-header {
+    height: 100% !important;
 }

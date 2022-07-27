@@ -1,0 +1,375 @@
+.tiny-sliderOne {
+    background-position: center left;
+    background-size: cover;
+    background-image: url(../../assets/Images/images1.jpg);
+}
+
+.tiny-sliderTwo {
+    background-position: center left;
+    background-size: cover;
+    background-image: url(../../assets/Images/images2.jpg);
+}
+
+.tiny-sliderThird {
+    background-position: center left;
+    background-size: cover;
+    background-image: url(../../assets/Images/images3.jpg);
+}
+
+.tiny-sliderFour {
+    background-position: center left;
+    background-size: cover;
+    background-image: url(../../assets/Images/images4.jpg);
+}
+
+.tiny-sliderFive {
+    background-position: center left;
+    background-size: cover;
+    background-image: url(../../assets/Images/images5.jpg);
+}
+
+
+
+.stretched-link::after {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+    content: "";
+}
+
+.overflow-hidden {
+    overflow: hidden !important;
+}
+
+.tns-outer {
+    position: relative;
+}
+
+.tns-outer {
+    padding: 0 !important;
+}
+
+.tns-visually-hidden {
+    position: absolute;
+    left: -10000em;
+}
+
+#tns1-iw {
+    margin: 0px 18px 0px 30px;
+}
+
+element.style {
+    transform: translate3d(0%, 0px, 0px);
+}
+
+@media (min-width: 75em) {
+    #tns1 {
+        width: calc(150%);
+    }
+}
+
+
+/* Tiny Slider Size small */
+#tns1>.tns-item {
+    width: calc(16.6667%);
+    padding-right: 12px;
+}
+
+#tns1>.tns-item {
+    font-size: 15px;
+}
+
+.tns-horizontal.tns-subpixel>.tns-item {
+    display: inline-block;
+    vertical-align: top;
+    white-space: normal;
+}
+
+.tns-slider>.tns-item {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.tns-item {
+    -ms-touch-action: pan-y;
+    touch-action: pan-y;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/*  */
+.border-dashed {
+    border-style: dashed !important;
+}
+
+.h-150px {
+    height: 150px !important;
+}
+
+.text-center {
+    text-align: center !important;
+}
+
+.align-items-center {
+    -webkit-box-align: center !important;
+    -ms-flex-align: center !important;
+    align-items: center !important;
+}
+
+.justify-content-center {
+    -webkit-box-pack: center !important;
+    -ms-flex-pack: center !important;
+    justify-content: center !important;
+}
+
+.border-2 {
+    border-width: 2px !important;
+}
+
+.border {
+    border: 1px solid rgba(0, 0, 0, 0.1) !important;
+}
+
+.shadow-none {
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+}
+
+.d-flex {
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+}
+
+.card {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.09);
+    border-radius: 0.4rem;
+}
+
+/* icon */
+.fa-solid,
+.fas {
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+}
+
+.fa,
+.fa-brands,
+.fa-duotone,
+.fa-light,
+.fa-regular,
+.fa-solid,
+.fa-thin,
+.fab,
+.fad,
+.fal,
+.far,
+.fas,
+.fat {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    display: var(--fa-display, inline-block);
+    font-style: normal;
+    font-variant: normal;
+    line-height: 1;
+    text-rendering: auto;
+}
+
+/*  nav*/
+
+.tns-nav {
+    position: absolute;
+    top: 100%;
+    bottom: 0;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    z-index: 10;
+    width: auto;
+    text-align: center;
+    white-space: nowrap;
+}
+
+/*left button arrow */
+
+.arrow-hover [data-controls=prev] {
+    left: -60px;
+}
+
+.tns-controls [data-controls=prev] {
+    left: 0;
+}
+
+.tns-controls [data-controls] {
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 0.4rem;
+    display: block;
+    z-index: 9;
+    text-align: center;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background: rgba(15, 111, 236, 0.3);
+    color: #fff;
+    border: none;
+    padding: 0;
+    margin: 0 5px;
+}
+
+.tns-outer [aria-controls],
+.tns-outer [data-action] {
+    cursor: pointer;
+}
+
+button,
+[type=button],
+[type=reset],
+[type=submit] {
+    -webkit-appearance: button;
+}
+
+button,
+select {
+    text-transform: none;
+}
+
+input,
+button,
+select,
+optgroup,
+textarea {
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+
+button {
+    border-radius: 0;
+}
+
+/* arrow */
+.tns-controls [data-controls] i {
+    line-height: inherit;
+}
+
+.fa-solid,
+.fas {
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+}
+
+.fa,
+.fa-brands,
+.fa-duotone,
+.fa-light,
+.fa-regular,
+.fa-solid,
+.fa-thin,
+.fab,
+.fad,
+.fal,
+.far,
+.fas,
+.fat {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    display: var(--fa-display, inline-block);
+    font-style: normal;
+    font-variant: normal;
+    line-height: 1;
+    text-rendering: auto;
+}
+
+
+/* right arrow */
+.arrow-hover [data-controls=next] {
+    right: -60px;
+}
+
+.tns-controls [data-controls=next] {
+    right: 0;
+}
+
+.tns-controls [data-controls] {
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 0.4rem;
+    display: block;
+    z-index: 9;
+    text-align: center;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background: rgba(15, 111, 236, 0.3);
+    color: #fff;
+    border: none;
+    padding: 0;
+    margin: 0 5px;
+}
+
+button:not(:disabled),
+[type=button]:not(:disabled),
+[type=reset]:not(:disabled),
+[type=submit]:not(:disabled) {
+    cursor: pointer;
+}
+
+.tns-outer [aria-controls],
+.tns-outer [data-action] {
+    cursor: pointer;
+}
+
+button,
+[type=button],
+[type=reset],
+[type=submit] {
+    -webkit-appearance: button;
+}
+
+button,
+select {
+    text-transform: none;
+}
+
+input,
+button,
+select,
+optgroup,
+textarea {
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+
+button {
+    border-radius: 0;
+}

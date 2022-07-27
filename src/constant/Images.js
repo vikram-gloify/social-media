@@ -22,8 +22,10 @@ import mainProfile from '../assets/Images/mianProfile.jpg';
 import mainContent from '../assets/Images/maincontentone.jpg';
 import addComment from '../assets/Images/addComment.jpg';
 import lori from '../assets/Images/lori.jpg';
-import bootstrap from '../assets/Images/boostrap.svg';
+import bootstrap from '../assets/Images/bootstrap.svg';
 import bootstrapBody from '../assets/Images/02 (1).jpg';
+import ThumbIcon from '../assets/Images/thumb.svg';
+import Apple from '../assets/Images/apple.svg';
 
 export {
     Avatar,
@@ -51,5 +53,7 @@ export {
     addComment,
     lori,
     bootstrap,
-    bootstrapBody
+    bootstrapBody,
+    ThumbIcon,
+    Apple
 };

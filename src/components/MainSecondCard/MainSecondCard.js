@@ -8,7 +8,7 @@ const MainSecondCard = () => {
             <div className="d-flex mb-3">
 
                 <div className="avatar avatar-xs me-2">
-                    <a href="/"> <img className="avatar-img rounded-circle" src={mainProfile} alt="" /> </a>
+                    <a href="/"> <img className="avatar-img  rounded-circle" src={mainProfile} alt="" /> </a>
                 </div>
 
                 <form className="w-100">
