@@ -18,7 +18,7 @@ export default class SimpleSlider extends Component {
 
             <div className="card">
                 <div className="card-header  d-flex justify-content-between align-items-center border-0 pb-0">
-                    <h2 className="card-title mb-1">People you may know</h2>
+                    <h6 className="card-title mb-1">People you may know</h6>
                     <a href="/" className="btn btn-sm btn-primary-soft">See all</a >
                 </div>
 
