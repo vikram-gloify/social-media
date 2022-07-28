@@ -79,11 +79,11 @@ const MainFeedCard = () => {
 
                 <ul className="nav nav-pills nav-pills-light nav-fill nav-stack small border-top border-bottom py-1 mb-3">
                     <li className="nav-item">
-                        <a className="nav-link mb-0 active" href="/"> <i className="bi bi-heart pe-1"></i>Liked (56)</a>
+                        <a className="nav-link mb-0 active" href="/" id='item-hover'> <i className="bi bi-heart pe-1"></i>Liked (56)</a>
                     </li>
 
                     <li className="nav-item dropdown">
-                        <a href="/" className="nav-link mb-0" id="cardShareAction4" data-bs-toggle="dropdown" aria-expanded="false">
+                        <a href="/" className="nav-link mb-0" id="cardShareAction4 item-hover" data-bs-toggle="dropdown" aria-expanded="false">
                             <i className="bi bi-reply-fill flip-horizontal ps-1"></i>Share (3)
                         </a>
 
@@ -98,7 +98,7 @@ const MainFeedCard = () => {
                     </li>
 
                     <li className="nav-item">
-                        <a className="nav-link mb-0" href="/"> <i className="bi bi-send-fill pe-1"></i>Send</a>
+                        <a className="nav-link mb-0" href="/" id='item-hover'> <i className="bi bi-send-fill pe-1"></i>Send</a>
                     </li>
                 </ul>
 
@@ -225,13 +225,13 @@ const MainFeedCard = () => {
                                 </div>
 
                                 <ul className="nav nav-divider pt-2 small">
-                                    <li className="nav-item" id='item-hover'>
+                                    <li className="nav-item">
                                         <a className="nav-link" href="/"> Like (1)</a>
                                     </li>
-                                    <li className="nav-item" id='item-hover'>
+                                    <li className="nav-item">
                                         <a className="nav-link" href="/"> Reply</a>
                                     </li>
-                                    <li className="nav-item" id='item-hover'>
+                                    <li className="nav-item">
                                         <a className="nav-link" href="/"> View 6 replies</a>
                                     </li>
                                 </ul>

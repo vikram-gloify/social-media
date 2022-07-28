@@ -26,6 +26,8 @@ import bootstrap from '../assets/Images/bootstrap.svg';
 import bootstrapBody from '../assets/Images/02 (1).jpg';
 import ThumbIcon from '../assets/Images/thumb.svg';
 import Apple from '../assets/Images/apple.svg';
+import Amanda from '../assets/Images/Amanda.jpg';
+import Larry from '../assets/Images/larry.jpg';
 
 export {
     Avatar,
@@ -55,5 +57,7 @@ export {
     bootstrap,
     bootstrapBody,
     ThumbIcon,
-    Apple
+    Apple,
+    Amanda,
+    Larry
 };

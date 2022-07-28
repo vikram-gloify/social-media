@@ -5,6 +5,8 @@ import MainContentCardsOne from '../MainContentCards/MainContentCardsOne';
 import MainContentCardTwo from '../MainContentCards/MainContentCardTwo';
 import MainFeedCard from '../MainContentCards/MainFeedCard';
 import MainSecondCard from '../MainSecondCard/MainSecondCard';
+import ScrollCard from '../MainContentCards/ScrollCard';
+import LoadBtn from '../LoadBtn/LoadBtn';
 
 
 const MainContent = () => {
@@ -50,6 +52,16 @@ const MainContent = () => {
                         <AppleCard />
                     </div>
 
+                </div>
+                <div className="mt-3">
+                    <div className="col">
+                        <ScrollCard />
+                    </div>
+                </div>
+                <div className="mt-3">
+                    <div className="col">
+                        <LoadBtn />
+                    </div>
                 </div>
             </div>
 
