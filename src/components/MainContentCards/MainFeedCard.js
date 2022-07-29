@@ -122,7 +122,7 @@ const MainFeedCard = () => {
                                     <p className="small mb-0">Removed demands expense account in outward tedious do. Particular way thoroughly unaffected projection.</p>
                                 </div>
 
-                                <ul className="nav nav-divider py-2 small">
+                                <ul className="nav nav-divider small">
                                     <li className="nav-item">
                                         <a className="nav-link" href="/"> Like (3)</a>
                                     </li>
@@ -136,7 +136,7 @@ const MainFeedCard = () => {
                             </div>
                         </div>
 
-                        <ul className="comment-item-nested list-unstyled">
+                        <ul className="comment-item-nested list-unstyled ps-5">
 
                             <li className="comment-item">
                                 <div className="d-flex">
@@ -196,7 +196,7 @@ const MainFeedCard = () => {
                             </li>
                         </ul>
 
-                        <a href="/" role="button" className="btn btn-link btn-link-loader btn-sm text-secondary d-flex align-items-center mb-3 ms-5" data-bs-toggle="button" aria-pressed="true">
+                        <a href="/" role="button" className="btn btn-link text-decoration-none btn-link-loader btn-sm text-secondary d-flex align-items-center mb-3 ms-5" data-bs-toggle="button" aria-pressed="true">
                             <div className="spinner-dots me-2">
                                 <i className="bi bi-three-dots"></i>
                             </div>

@@ -6,76 +6,8 @@
     opacity: 0.8;
 }
 
-textarea {
-    border: none;
-    background-color: transparent;
-    resize: none;
-    outline: none;
-}
 
 
-.form-control {
-    display: block;
-    width: 100%;
-    padding: 0.5rem 1rem;
-    font-size: 0.9375rem;
-    font-weight: 400;
-    line-height: 1.5;
-    color: #29292e;
-    background-color: #fff;
-    background-clip: padding-box;
-    border: 1px solid #e1e4e6;
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    appearance: none;
-    border-radius: 0.4rem;
-    -webkit-transition: border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
-    transition: border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
-    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
-    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
-}
-
-input,
-button,
-select,
-optgroup,
-textarea {
-    margin: 0;
-    font-family: inherit;
-    font-size: inherit;
-    line-height: inherit;
-}
-
-textarea {
-    writing-mode: horizontal-tb !important;
-    font-family: monospace;
-    text-rendering: auto;
-    color: fieldtext;
-    letter-spacing: normal;
-    word-spacing: normal;
-    line-height: normal;
-    text-transform: none;
-    text-indent: 0px;
-    text-shadow: none;
-    text-align: start;
-    -webkit-rtl-ordering: logical;
-    cursor: text;
-    white-space: pre-wrap;
-    overflow-wrap: break-word;
-}
-
-
-
-.lori-ferguson {
-    color: #29292e;
-    text-decoration: none;
-}
-
-/* Profile*/
-.lori-img {
-    border: #0f6fec 2px solid;
-
-}
 
 .billy-img {
     border: #0f6fec 2px solid;

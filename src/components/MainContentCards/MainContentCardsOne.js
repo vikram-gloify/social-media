@@ -108,7 +108,7 @@ const MainContentCardsOne = () => {
                             </div>
                         </div>
 
-                        <ul className="comment-item-nested list-unstyled">
+                        <ul className="comment-item-nested list-unstyled ps-5">
 
                             <li className="comment-item">
                                 <div className="d-flex">

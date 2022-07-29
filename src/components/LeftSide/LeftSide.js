@@ -1,6 +1,5 @@
 import React from 'react';
 import LeftCard from '../LeftCard/LeftCard';
-import './LeftSide.css';
 
 const LeftSide = () => {
     return (
@@ -11,7 +10,6 @@ const LeftSide = () => {
                     {/* Left Side Single Card Section  */}
                     <LeftCard />
                 </div>
-
             </div>
         </div>
 

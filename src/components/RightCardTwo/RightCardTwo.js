@@ -1,10 +1,10 @@
 import React from 'react';
-import './RightCardTwo.css';
+
 
 const RightCardTwo = () => {
     return (
         <article className="rightCardTwo">
-            <div className="col-sm-6 col-lg-12">
+            <div className="col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
                 <div className="card">
 
                     <div className="card-header pb-0 border-0">

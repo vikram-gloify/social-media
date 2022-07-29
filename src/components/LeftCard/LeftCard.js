@@ -1,6 +1,5 @@
 import React from 'react';
 import { Avatar, calender, chat, cog, earth, feed, LeftBg, notification, person } from '../../constant/Images';
-import './LeftCard.css';
 
 const Card = () => {
     return (

@@ -1,6 +1,5 @@
 import React from 'react';
 import { right1, right2, right3, right4, placeholder } from '../../constant/Images';
-import './RightCardOne.css';
 
 const RightCardOne = () => {
     return (
