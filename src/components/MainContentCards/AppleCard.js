@@ -1,6 +1,6 @@
 import React from 'react';
 import { Apple } from '../../constant/Images';
-import './AppleCard.css';
+
 
 const AppleCard = () => {
     return (

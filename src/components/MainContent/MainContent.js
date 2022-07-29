@@ -1,5 +1,5 @@
-import React from 'react'
-// import CarouselOne from '../Carousel/CarouselOne';
+import React from 'react';
+import CarouselOne from '../Carousel/CarouselOne';
 import AppleCard from '../MainContentCards/AppleCard';
 import MainContentCardsOne from '../MainContentCards/MainContentCardsOne';
 import MainContentCardTwo from '../MainContentCards/MainContentCardTwo';
@@ -19,7 +19,7 @@ const MainContent = () => {
             <div className="mt-3">
                 <div className="col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
                     {/* Slider Section */}
-                    {/* <CarouselOne /> */}
+                    <CarouselOne />
                 </div>
                 <div className="mt-3">
                     <div className="col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">

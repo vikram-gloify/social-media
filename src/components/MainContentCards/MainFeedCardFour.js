@@ -5,7 +5,7 @@ const MainFeedCardFour = () => {
     return (
         <div className="card">
 
-            <div className="card-header">
+            <div className="card-header border-0 pt-3">
                 <div className="d-flex align-items-center justify-content-between">
                     <div className="d-flex align-items-center">
 
@@ -13,7 +13,7 @@ const MainFeedCardFour = () => {
                             <a href="/"> <img className="avatar-img rounded-circle" src={WebLogo} alt="" /> </a>
                         </div>
                         <div>
-                            <h6 className="card-title mb-0"> <a href="/" className="text-decoration-none"> Webestica </a></h6>
+                            <h6 className="card-title mb-0"> <a href="/" className="text-decoration-none text-webestica"> Webestica </a></h6>
                             <p className="small mb-0">9 December at 10:00 </p>
                         </div>
                     </div>
@@ -32,7 +32,8 @@ const MainFeedCardFour = () => {
                     </div>
                 </div>
             </div>
-            <div className="card-body">
+            <span className="webestica-boder"></span>
+            <div className="card-body pt-4">
                 <p className="mb-0">The next-generation blog, news, and magazine theme for you to start sharing your content today with beautiful aesthetics! This minimal &amp; clean Bootstrap 5 based theme is ideal for all types of sites that aim to provide users with content. <a href="/" className="text-decoration-none"> /bootstrap</a> <a href="/" className="text-decoration-none"> /webestica </a> <a href="/" className="text-decoration-none"> /getbootstrap</a> <a href="/" className="text-decoration-none"> /bootstrap5 </a></p>
             </div>
             <a href="/"> <img src={WebPoster} alt="" className="w-100" /> </a>

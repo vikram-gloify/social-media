@@ -10,78 +10,81 @@ export default class SimpleSlider extends Component {
             slidesToShow: 3,
             slidesToScroll: 1,
             autoplay: true,
-            arrows: false
+            arrows: false,
+            responsive: null
         };
 
         return (
+
+
 
 
             <div className="col">
                 <div className="card">
                     <div className="card-header  d-flex justify-content-between align-items-center border-0 pb-0">
                         <h6 className="card-title mb-1">People you may know</h6>
-                        <a href="/" className="btn btn-sm btn-primary-soft">See all</a >
+                        <a href="/" className="btn btn-sm-header btn-primary-soft">See all</a >
                     </div>
 
-                    <Slider {...settings} className="">
-                        <div className="scroll-card mt-3 ps-3">
 
 
+                    <Slider {...settings} className="mt-4">
+
+                        <div className="scroll-card ps-3">
                             <div className="card">
                                 <div className="card-header bg-white border-0">
-                                    <img src={addComment} className="avatar-img rounded-circle img-center" alt="add-comment" />
+                                    <img src={addComment} className="scroll-img rounded-circle" alt="add-comment" />
                                 </div>
-                                <div className="card-body">
+                                <div className="card-body card-body-h-p">
                                     <h6 className="card-title mb-1 "> Dennis Barrett </h6>
                                     <p className=" small lh-sm">21 mutual connections</p>
                                 </div>
-                                <div className="card-footer bg-white border-0">
-                                    <a href="/" className="btn btn-sm btn-primary-soft align-center">Add friend</a >
+                                <div className="card-footer card-footer-btn bg-white border-0">
+                                    <a href="/" className="btn btn-sm btn-primary-soft">Add friend</a >
                                 </div>
                             </div>
                         </div>
-                        <div className="scroll-card mt-3 ps-3">
-
+                        <div className="scroll-card ps-3">
                             <div className="card">
                                 <div className="card-header  bg-white border-0">
-                                    <img src={Amanda} className="avatar-img rounded-circle img-center" alt="Amanda" />
+                                    <img src={Amanda} className="scroll-img rounded-circle" alt="Amanda" />
                                 </div>
-                                <div className="card-body">
+                                <div className="card-body card-body-h-p">
                                     <h6 className="card-title mb-1 "> Amanda Reed </h6>
                                     <p className=" small lh-sm">50 mutual connections</p>
-                                    <div className="card-footer bg-white border-0">
-                                        <a href="/" className="btn btn-sm btn-primary-soft">Add friend</a >
-                                    </div>
+                                </div>
+                                <div className="card-footer card-footer-btn bg-white border-0">
+                                    <a href="/" className="btn btn-sm btn-primary-soft">Add friend</a >
                                 </div>
                             </div>
                         </div>
-                        <div className="scroll-card mt-3 ps-3">
+                        <div className="scroll-card ps-3">
 
                             <div className="card">
                                 <div className="card-header  bg-white border-0">
-                                    <img src={Larry} className="avatar-img rounded-circle img-center" alt="Larry" />
+                                    <img src={Larry} className="scroll-img larry-border rounded-circle" alt="Larry" />
                                 </div>
-                                <div className="card-body">
+                                <div className="card-body card-body-h-p">
                                     <h6 className="card-title mb-1 "> Larry Lawson </h6>
                                     <p className=" small lh-sm">33 mutual connections</p>
-                                    <div className="card-footer bg-white border-0">
-                                        <a href="/" className="btn btn-sm btn-primary-soft">Add friend</a >
-                                    </div>
+                                </div>
+                                <div className="card-footer card-footer-btn bg-white border-0">
+                                    <a href="/" className="btn btn-sm btn-primary-soft">Add friend</a >
                                 </div>
                             </div>
                         </div>
-                        <div className="scroll-card mt-3 ps-3">
+                        <div className="scroll-card ps-3">
 
                             <div className="card">
                                 <div className="card-header  bg-white border-0">
-                                    <img src={right3} className="avatar-img rounded-circle img-center" alt="right3" />
+                                    <img src={right3} className="scroll-img rounded-circle" alt="right3" />
                                 </div>
-                                <div className="card-body">
+                                <div className="card-body card-body-h-p">
                                     <h6 className="card-title mb-1 "> Louis Crawford </h6>
                                     <p className=" small lh-sm">45 mutual connections</p>
-                                    <div className="card-footer bg-white border-0">
-                                        <a href="/" className="btn btn-sm btn-primary-soft">Add friend</a >
-                                    </div>
+                                </div>
+                                <div className="card-footer card-footer-btn bg-white border-0">
+                                    <a href="/" className="btn btn-sm btn-primary-soft">Add friend</a >
                                 </div>
                             </div>
                         </div>

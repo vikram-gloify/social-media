@@ -30,7 +30,7 @@ import Amanda from '../assets/Images/Amanda.jpg';
 import Larry from '../assets/Images/larry.jpg';
 import WebPoster from '../assets/Images/03.jpg';
 import WebLogo from '../assets/Images/11.svg';
-import poster from '../assets/Images/poster.jpg';
+import poster from '../assets/videos/video-feed.mp4';
 
 export {
     Avatar,

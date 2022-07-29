@@ -1,9 +1,11 @@
 import React from 'react'
 import { Avatar, bootstrapBody, images2, lori, mainContent, right1, right2, ThumbIcon } from '../../constant/Images';
-import './MainFeedCard.css';
+
 
 const MainFeedCard = () => {
     return (
+
+        // Main Content feed News judy 
         <div className="card">
             <div className="card-header border-0 pb-0">
                 <div className="d-flex align-items-center justify-content-between mt-2">
@@ -54,7 +56,7 @@ const MainFeedCard = () => {
 
                             <div className="position-relative bg-dark mt-3 rounded">
                                 <div className="hover-actions-item position-absolute top-50 start-50 translate-middle z-index-9">
-                                    <a className="btn btn-link text-white text-decoration-none" href="/"> View all </a>
+                                    <a className="btn btn-link text-white fw-bold  text-decoration-none" href="/"> View all </a>
                                 </div>
                                 <a href="assets/images/post/3by2/02.jpg" data-glightbox="" data-gallery="image-popup">
                                     <img className="img-fluid opacity-50 rounded" src={bootstrapBody} alt="bootstrap" />
@@ -79,11 +81,11 @@ const MainFeedCard = () => {
 
                 <ul className="nav nav-pills nav-pills-light nav-fill nav-stack small border-top border-bottom py-1 mb-3">
                     <li className="nav-item">
-                        <a className="nav-link mb-0 active" href="/" id='item-hover'> <i className="bi bi-heart pe-1"></i>Liked (56)</a>
+                        <a className="nav-link mb-0 active" href="/"> <i className="bi bi-heart pe-1"></i>Liked (56)</a>
                     </li>
 
                     <li className="nav-item dropdown">
-                        <a href="/" className="nav-link mb-0" id="cardShareAction4 item-hover" data-bs-toggle="dropdown" aria-expanded="false">
+                        <a href="/" className="nav-link mb-0 judy-footer-share" id="cardShareAction4" data-bs-toggle="dropdown" aria-expanded="false">
                             <i className="bi bi-reply-fill flip-horizontal ps-1"></i>Share (3)
                         </a>
 
@@ -98,7 +100,7 @@ const MainFeedCard = () => {
                     </li>
 
                     <li className="nav-item">
-                        <a className="nav-link mb-0" href="/" id='item-hover'> <i className="bi bi-send-fill pe-1"></i>Send</a>
+                        <a className="nav-link mb-0 judy-footer" href="/"> <i className="bi bi-send-fill pe-1"></i>Send</a>
                     </li>
                 </ul>
 

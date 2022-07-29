@@ -4,72 +4,46 @@ import { images1, images2, images3, images4, images5 } from "../../constant/Imag
 
 
 
-// React Slick Carousel And Slider
-
-
-// function SampleNextArrow(props) {
-//     const { className, style, onClick } = props;
-//     return (
-//         <div
-//             className={className}
-//             style={{ ...style, display: "block", background: "primary" }}
-//             onClick={onClick}
-//         />
-//     );
-// }
-
-// function SamplePrevArrow(props) {
-//     const { className, style, onClick } = props;
-//     return (
-//         <div
-//             className={className}
-//             style={{ ...style, display: "block", background: "primary" }}
-//             onClick={onClick}
-//         />
-//     );
-// }
-
-// class Base CustomArrows 
-export default class CustomArrows extends Component {
+export default class MultipleItems extends Component {
     render() {
         const settings = {
+            dots: false,
             infinite: true,
-            slidesToShow: 4,
+            speed: 500,
+            slidesToShow: 3,
             slidesToScroll: 1,
-            // nextArrow: <SampleNextArrow />,
-            // prevArrow: <SamplePrevArrow />
+            arrows: true
         };
         return (
+            <div>
 
-            //  Slider one React Slick 
-            <Slider {...settings}>
-                <div className="span w-100 ps-2 pe-2 rounded">
-                    <span><i className="fa-solid fa-plus align-content-center"></i></span>
-                    <h6 className="slider-react-post align-content-center"> Post a Story </h6>
-                </div>
-                <div className="ps-2">
-                    <img src={images1} className="w-100 rounded" alt="" />
-                    <h6 className="text-white" id="slider-react">Judy Nguyen</h6>
-                </div>
-                <div className="ps-2">
-                    <img src={images2} className="w-100 rounded" alt="" />
-                    <h6 className="text-white" id="slider-react">Samuel Bishop</h6>
-                </div>
-                <div className="ps-2">
-                    <img src={images3} className="w-100 rounded" alt="" />
-                    <h6 className="text-white" id="slider-react">Carolyn Ortiz</h6>
-                </div>
-                <div className="ps-2">
-                    <img src={images4} className="w-100 rounded" alt="" />
-                    <h6 className="text-white" id="slider-react">Amanda Reed</h6>
+                <Slider {...settings}>
+                    <div className="w-100 ps-3 bg-white p-5 border-dash  rounded">
+                        <span className="align-item-center"><i className="fa-solid fa-plus align-content-center"></i><h6 className="slider-react-post align-content-center"> Post a Story </h6></span>
+                    </div>
+                    <div className="ps-3">
 
-                </div>
-                <div className="ps-2">
-                    <img src={images5} className="w-100 rounded" alt="" />
-                    <h6 className="text-white" id="slider-react">Lori Stevens</h6>
-                </div>
-            </Slider>
+                        <span><img src={images1} className="w-100 rounded" alt="" /><h6 className="text-white style-text" id="slider-react-carousel">Judy Nguyen</h6></span>
+                    </div>
+                    <div className="ps-3">
 
+                        <span><img src={images2} className="w-100 rounded" alt="" /><h6 className="text-white style-text" id="slider-react-carousel">Samuel Bishop</h6></span>
+                    </div>
+                    <div className="ps-3">
+
+                        <span><img src={images3} className="w-100 rounded" alt="" /><h6 className="text-white style-text" id="slider-react-carousel">Carolyn Ortiz</h6></span>
+                    </div>
+                    <div className="ps-3">
+
+                        <span><img src={images4} className="w-100 rounded" alt="" /><h6 className="text-white style-text" id="slider-react-carousel">Amanda Reed</h6></span>
+
+                    </div>
+                    <div className="ps-3">
+
+                        <span><img src={images5} className="w-100 rounded" alt="" /><h6 className="text-white style-text" id="slider-react-carousel">Lori Stevens</h6></span>
+                    </div>
+                </Slider>
+            </div>
         );
     }
 }

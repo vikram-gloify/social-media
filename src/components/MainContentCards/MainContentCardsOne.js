@@ -1,6 +1,6 @@
 import React from 'react'
 import { addComment, Avatar, lori, mainContent, right1, right2 } from '../../constant/Images';
-import './MainContentCardsOne.css';
+
 
 const MainContentCardsOne = () => {
     return (

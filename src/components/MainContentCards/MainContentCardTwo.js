@@ -1,6 +1,6 @@
 import React from 'react';
 import { bootstrap, bootstrapBody } from '../../constant/Images';
-import './MainContentCardsOne.css';
+
 
 const MainContentCardTwo = () => {
     return (
