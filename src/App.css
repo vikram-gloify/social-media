@@ -10,7 +10,7 @@ body {
 
 h5,
 .h5 {
-    font-size: 1.171875rem;
+    font-size: 1.25rem;
 
 }
 
@@ -32,19 +32,4 @@ h1,
     font-weight: 700;
     line-height: 1.25;
     color: #14191e;
-}
-
-.gap-2 {
-    gap: 0.5rem !important;
-}
-
-h6,
-.h6 {
-    font-size: 0.9375rem;
-}
-
-
-
-.gap-xl-3 {
-    gap: 1rem !important;
 }

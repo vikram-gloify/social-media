@@ -1,4 +1,67 @@
 /* General Section  */
+:root {
+    --bs-blue: #0d6efd;
+    --bs-indigo: #6610f2;
+    --bs-purple: #6f42c1;
+    --bs-pink: #d63384;
+    --bs-red: #dc3545;
+    --bs-orange: #fd7e14;
+    --bs-yellow: #ffc107;
+    --bs-green: #198754;
+    --bs-teal: #20c997;
+    --bs-cyan: #0dcaf0;
+    --bs-white: #fff;
+    --bs-gray: #6c757d;
+    --bs-gray-dark: #343a40;
+    --bs-gray-100: #f8f9fa;
+    --bs-gray-200: #e9ecef;
+    --bs-gray-300: #dee2e6;
+    --bs-gray-400: #ced4da;
+    --bs-gray-500: #adb5bd;
+    --bs-gray-600: #6c757d;
+    --bs-gray-700: #495057;
+    --bs-gray-800: #343a40;
+    --bs-gray-900: #212529;
+    --bs-primary: #0f6fec;
+    --bs-secondary: #14191e;
+    --bs-success: #0cbc87;
+    --bs-info: #4f9ef8;
+    --bs-warning: #f7c32e;
+    --bs-danger: #d6293e;
+    --bs-light: #eef0f2;
+    --bs-dark: #14191e;
+    --bs-primary-rgb: 15, 111, 236;
+    --bs-secondary-rgb: 20, 25, 30;
+    --bs-success-rgb: 12, 188, 135;
+    --bs-info-rgb: 79, 158, 248;
+    --bs-warning-rgb: 247, 195, 46;
+    --bs-danger-rgb: 214, 41, 62;
+    --bs-light-rgb: 238, 240, 242;
+    --bs-dark-rgb: 20, 25, 30;
+    --bs-white-rgb: 255, 255, 255;
+    --bs-black-rgb: 0, 0, 0;
+    --bs-body-color-rgb: 103, 106, 121;
+    --bs-body-bg-rgb: 239, 242, 246;
+    --bs-font-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+    --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
+    --bs-body-font-family: Inter, sans-serif;
+    --bs-body-font-size: 0.9375rem;
+    --bs-body-font-weight: 400;
+    --bs-body-line-height: 1.5;
+    --bs-body-color: #676a79;
+    --bs-body-bg: #eff2f6;
+}
+
+:host,
+:root {
+    --fa-font-solid: normal 900 1em/1 "Font Awesome 6 Free";
+}
+
+/* General Section Exit */
+
+
+
 /* Left Side Article */
 .svg {
     width: 1.25em;
@@ -58,7 +121,7 @@ h6 {
     color: #14191e;
 }
 
-small,
+
 .small {
     font-size: 0.875em;
     font-weight: 400;
@@ -110,7 +173,6 @@ small,
 
 /* like-post-follower section  Exit*/
 
-
 /* Card Nav link Section */
 
 .lh-1 {
@@ -146,6 +208,148 @@ small,
 
 
 /* Right Side Article  */
+.right-side-profile {
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-item-align: stretch;
+    align-self: stretch;
+}
+
+.right-side-img {
+    vertical-align: middle;
+}
+
+.right-side-img {
+    height: 3rem;
+    width: 3rem;
+    position: relative;
+    display: inline-block;
+    -ms-flex-negative: 0 !important;
+    flex-shrink: 0 !important;
+}
+
+/* Border 2px right Side profile */
+.amanda {
+    border: 2px solid #0d6efd;
+}
+
+/* icon */
+.fa-solid,
+.fas {
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+}
+
+.fa,
+.fa-brands,
+.fa-duotone,
+.fa-light,
+.fa-regular,
+.fa-solid,
+.fa-thin,
+.fab,
+.fad,
+.fal,
+.far,
+.fas,
+.fat {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    display: var(--fa-display, inline-block);
+    font-style: normal;
+    font-variant: normal;
+    line-height: 1;
+    text-rendering: auto;
+}
+
+/* Font section */
+/* Title Hover */
+
+.title {
+    color: #14191e;
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    line-height: 1.25;
+}
+
+.title:hover {
+    color: #0f6fec;
+}
+
+/* right Side H6 */
+
+.h6,
+h6 {
+    font-size: 14px;
+}
+
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+p {
+    margin-top: 5px;
+    margin-bottom: 1rem;
+    font-size: 15px;
+}
+
+
+/* icon btn */
+.icon-md {
+    height: 2.5rem;
+    width: 2.5rem;
+    font-size: 0.9em;
+    display: inline-flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+/* Btn Hover */
+.btn-primary-soft {
+    color: #0f6fec;
+    background-color: rgba(15, 111, 236, 0.1);
+}
+
+.btn-primary-soft:hover {
+    color: #fff;
+    background-color: #0f6fec;
+}
+
+/* heading down */
+
+
+.text-truncate {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    color: #676a79;
+}
 
 /* Right Side Article Exit */
 

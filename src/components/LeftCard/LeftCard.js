@@ -23,22 +23,22 @@ const Card = () => {
                     <div className="like-post-follower gap-2 gap-xl-3 justify-content-center">
 
                         <div>
-                            <h6 className="mb-0 text-center text-break">256</h6>
-                            <small className="fw-light text-break">Post</small>
+                            <h6 className="mb-0 text-center">256</h6>
+                            <small className="fw-light">Post</small>
                         </div>
 
                         <div className="vr ms-2 me-2"></div>
 
                         <div>
-                            <h6 className="mb-0 text-center text-break">2.5K</h6>
-                            <small className="fw-light text-break">Followers</small>
+                            <h6 className="mb-0 text-center">2.5K</h6>
+                            <small className="fw-light">Followers</small>
                         </div>
 
                         <div className="vr  ms-2 me-2"></div>
 
                         <div>
-                            <h6 className="mb-0 text-center text-break">365</h6>
-                            <small className="fw-light text-break">Following</small>
+                            <h6 className="mb-0 text-center">365</h6>
+                            <small className="fw-light">Following</small>
                         </div>
                     </div>
                     <hr />
