@@ -5,20 +5,20 @@ const MainFeedCardFour = () => {
     return (
         <div className="card">
 
-            <div className="card-header border-0 pt-3">
+            <div className="card-header bg-white border-0 pt-3">
                 <div className="d-flex align-items-center justify-content-between">
                     <div className="d-flex align-items-center">
 
                         <div className="avatar me-2">
-                            <a href="/"> <img className="avatar-img rounded-circle" src={WebLogo} alt="" /> </a>
+                            <a href="/"> <img className="feed-news-img rounded-circle" src={WebLogo} alt="" /> </a>
                         </div>
                         <div>
-                            <h6 className="card-title mb-0"> <a href="/" className="text-decoration-none text-webestica"> Webestica </a></h6>
+                            <h6 className="card-title mb-0"> <a href="/" className="text-decoration-none lori-ferguson"> Webestica </a></h6>
                             <p className="small mb-0">9 December at 10:00 </p>
                         </div>
                     </div>
                     <div className="dropdown">
-                        <a href="/" className="text-secondary btn btn-secondary-soft-hover py-1 px-2" id="cardShareAction8" data-bs-toggle="dropdown" aria-expanded="false">
+                        <a href="/" className="text-secondary btn three-dots py-1 px-2" id="cardShareAction8" data-bs-toggle="dropdown" aria-expanded="false">
                             <i className="bi bi-three-dots"></i>
                         </a>
                         <ul className="dropdown-menu dropdown-menu-end" aria-labelledby="cardShareAction8">

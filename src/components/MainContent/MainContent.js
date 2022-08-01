@@ -1,12 +1,12 @@
 import React from 'react';
-import CarouselOne from '../Carousel/CarouselOne';
+// import CarouselOne from '../Carousel/CarouselOne';
 import AppleCard from '../MainContentCards/AppleCard';
 import MainContentCardsOne from '../MainContentCards/MainContentCardsOne';
 import MainContentCardTwo from '../MainContentCards/MainContentCardTwo';
 import MainFeedCard from '../MainContentCards/MainFeedCard';
 import MainSecondCard from '../MainSecondCard/MainSecondCard';
 import ScrollCard from '../MainContentCards/ScrollCard';
-import LoadBtn from '../LoadBtn/LoadBtn';
+// import LoadBtn from '../LoadBtn/LoadBtn';
 import MainFeedCardTwo from '../MainContentCards/MainFeedCardTwo';
 import MainFeedCardThree from '../MainContentCards/MainFeedCardThree';
 import MainFeedCardFour from '../MainContentCards/MainFeedCardFour';
@@ -19,7 +19,7 @@ const MainContent = () => {
             <div className="mt-3">
                 <div className="col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
                     {/* Slider Section */}
-                    <CarouselOne />
+                    {/* <CarouselOne /> */}
                 </div>
                 <div className="mt-3">
                     <div className="col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
@@ -92,7 +92,7 @@ const MainContent = () => {
                 <div className="mt-3">
                     <div className="col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
                         {/* News Feed Section  loadBtn */}
-                        <LoadBtn />
+                        {/* <LoadBtn /> */}
                     </div>
                 </div>
             </div>

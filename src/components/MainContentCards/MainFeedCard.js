@@ -7,15 +7,15 @@ const MainFeedCard = () => {
 
         // Main Content feed News judy 
         <div className="card">
-            <div className="card-header border-0 pb-0">
+            <div className="card-header border-0 pb-0 bg-white">
                 <div className="d-flex align-items-center justify-content-between mt-2">
                     <div className="d-flex align-items-center">
 
                         <div className="avatar me-2">
-                            <a href="/"> <img className="avatar-img rounded-circle" src={right1} alt="" /> </a>
+                            <a href="/"> <img className="feed-news-img rounded-circle" src={right1} alt="" /> </a>
                         </div>
                         <div>
-                            <h6 className="card-title mb-0"> <a href="/" className="text-decoration-none judy-text"> Judy Nguyen </a></h6>
+                            <h6 className="card-title mb-0"> <a href="/" className="text-decoration-none lori-ferguson"> Judy Nguyen </a></h6>
                             <div className="nav nav-divider">
                                 <p className="nav-item mb-0 small">Web Developer at Webestica</p>
                                 <span className="nav-item small" data-bs-toggle="tooltip" data-bs-placement="top" title="" data-bs-original-title="Public"> <i className="bi bi-globe"></i> </span>
@@ -23,7 +23,7 @@ const MainFeedCard = () => {
                         </div>
                     </div>
                     <div className="dropdown">
-                        <a href="/" className="text-secondary btn btn-secondary-soft-hover py-1 px-2" id="cardShareAction3" data-bs-toggle="dropdown" aria-expanded="false">
+                        <a href="/" className="text-secondary btn three-dots py-1 px-2" id="cardShareAction3" data-bs-toggle="dropdown" aria-expanded="false">
                             <i className="bi bi-three-dots"></i>
                         </a>
 
@@ -55,11 +55,11 @@ const MainFeedCard = () => {
                             </a>
 
                             <div className="position-relative bg-dark mt-3 rounded">
-                                <div className="hover-actions-item position-absolute top-50 start-50 translate-middle z-index-9">
-                                    <a className="btn btn-link text-white fw-bold  text-decoration-none" href="/"> View all </a>
+                                <div className="hover-actions-item position-absolute top-50 start-50 translate-middle z-index-9 ">
+                                    <a className="btn btn-link text-white text-decoration-none" href="/"> View all </a>
                                 </div>
                                 <a href="assets/images/post/3by2/02.jpg" data-glightbox="" data-gallery="image-popup">
-                                    <img className="img-fluid opacity-50 rounded" src={bootstrapBody} alt="bootstrap" />
+                                    <img className="img-fluid opacity-100 rounded" src={bootstrapBody} alt="bootstrap" />
                                 </a>
                             </div>
                         </div>
@@ -112,7 +112,7 @@ const MainFeedCard = () => {
                         <div className="d-flex">
 
                             <div className="avatar avatar-xs">
-                                <a href="/"> <img className="avatar-img rounded-circle" src={right2} alt="" /> </a>
+                                <a href="/"> <img className="feed-comment rounded-circle" src={right2} alt="" /> </a>
                             </div>
                             <div className="ms-2">
 
@@ -144,7 +144,7 @@ const MainFeedCard = () => {
                                 <div className="d-flex">
 
                                     <div className="avatar avatar-xs">
-                                        <a href="/"><img className="avatar-img rounded-circle" src={lori} alt="lori" /></a>
+                                        <a href="/"><img className="feed-comment rounded-circle" src={lori} alt="lori" /></a>
                                     </div>
 
                                     <div className="ms-2">
@@ -173,7 +173,7 @@ const MainFeedCard = () => {
                                 <div className="d-flex">
 
                                     <div className="avatar avatar-xs">
-                                        <a href="/"><img className="avatar-img rounded-circle" src={Avatar} alt="avatar" /></a>
+                                        <a href="/"><img className="feed-comment rounded-circle" src={Avatar} alt="avatar" /></a>
                                     </div>
 
                                     <div className="ms-2">
@@ -211,7 +211,7 @@ const MainFeedCard = () => {
                         <div className="d-flex">
 
                             <div className="avatar avatar-xs">
-                                <a href="/"><img className="avatar-img rounded-circle" src={right2} alt="right-img" /></a>
+                                <a href="/"><img className="feed-comment rounded-circle" src={right2} alt="right-img" /></a>
                             </div>
 
                             <div className="ms-2">

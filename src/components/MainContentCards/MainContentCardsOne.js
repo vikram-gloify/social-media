@@ -5,12 +5,12 @@ import { addComment, Avatar, lori, mainContent, right1, right2 } from '../../con
 const MainContentCardsOne = () => {
     return (
         <div className="card">
-            <div className="card-header border-0 pb-0">
+            <div className="card-header bg-white border-0 pb-0">
                 <div className="d-flex align-items-center justify-content-between mt-2">
-                    <div className="d-flex align-items-center">
+                    <div className="d-flex align-items-center" >
 
                         <div className="avatar  avatar-story me-2">
-                            <a href="/"> <img className="avatar-img lori-img rounded-circle" src={right1} alt="" /> </a>
+                            <a href="/"> <img className="feed-news-img lori-img rounded-circle" src={right1} alt="" /> </a>
                         </div>
                         <div>
                             <div className="nav nav-divider">
@@ -21,7 +21,7 @@ const MainContentCardsOne = () => {
                         </div>
                     </div>
                     <div className="dropdown">
-                        <a href="/" className="text-secondary btn btn-secondary-soft-hover py-1 px-2" id="cardFeedAction" data-bs-toggle="dropdown" aria-expanded="false">
+                        <a href="/" className="btn  three-dots py-1 px-2" id="cardFeedAction" data-bs-toggle="dropdown" aria-expanded="false">
                             <i className="bi bi-three-dots"></i>
                         </a>
                         <ul className="dropdown-menu dropdown-menu-end" aria-labelledby="cardFeedAction">
@@ -68,7 +68,7 @@ const MainContentCardsOne = () => {
                 <div className="d-flex mb-3">
 
                     <div className="avatar avatar-xs me-2">
-                        <a href="/"> <img className="avatar-img rounded-circle" src={addComment} alt="" /> </a>
+                        <a href="/"> <img className="feed-comment rounded-circle" src={addComment} alt="" /> </a>
                     </div>
 
                     <form className="w-100">
@@ -82,7 +82,7 @@ const MainContentCardsOne = () => {
                         <div className="d-flex position-relative">
 
                             <div className="avatar avatar-xs">
-                                <a href="/"><img className="avatar-img rounded-circle" src={right2} alt="" /></a>
+                                <a href="/"><img className="feed-comment rounded-circle" src={right2} alt="" /></a>
                             </div>
                             <div className="ms-2">
 
@@ -114,7 +114,7 @@ const MainContentCardsOne = () => {
                                 <div className="d-flex">
 
                                     <div className="avatar avatar-xs">
-                                        <a href="/"><img className="avatar-img  rounded-circle" src={lori} alt="" /></a>
+                                        <a href="/"><img className="feed-comment  rounded-circle" src={lori} alt="" /></a>
                                     </div>
 
                                     <div className="ms-2">
@@ -143,7 +143,7 @@ const MainContentCardsOne = () => {
                                 <div className="d-flex">
 
                                     <div className="avatar avatar-story avatar-xs">
-                                        <a href="/"><img className="avatar-img billy-img rounded-circle" src={Avatar} alt="" /></a>
+                                        <a href="/"><img className="feed-comment billy-img rounded-circle" src={Avatar} alt="" /></a>
                                     </div>
 
                                     <div className="ms-2">
@@ -183,7 +183,7 @@ const MainContentCardsOne = () => {
                         <div className="d-flex">
 
                             <div className="avatar avatar-xs">
-                                <a href="/"><img className="avatar-img rounded-circle" src={right2} alt="" /></a>
+                                <a href="/"><img className="feed-comment rounded-circle" src={right2} alt="" /></a>
                             </div>
 
                             <div className="ms-2">

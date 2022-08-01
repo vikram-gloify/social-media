@@ -4,24 +4,24 @@ import { addComment, lori, poster, right2 } from '../../constant/Images'
 const MainFeedCardFive = () => {
     return (
         <div className="card">
-            <div className="card-header border-0 pb-0">
+            <div className="card-header bg-white border-0 pb-0">
                 <div className="d-flex align-items-center justify-content-between">
                     <div className="d-flex align-items-center">
 
                         <div className="avatar avatar-story me-2">
-                            <a href="/"> <img className="avatar-img rounded-circle" src={addComment} alt="" /> </a>
+                            <a href="/"> <img className="feed-news-img border-img rounded-circle" src={addComment} alt="" /> </a>
                         </div>
 
                         <div>
                             <div className="nav nav-divider">
-                                <h6 className="nav-item card-title mb-0"> <a href="/" className="text-decoration-none joan-text"> Joan Wallace </a></h6>
+                                <h6 className="nav-item card-title mb-0"> <a href="/" className="text-decoration-none  lori-ferguson"> Joan Wallace </a></h6>
                                 <span className="nav-item small"> 1day</span>
                             </div>
                             <p className="mb-0 small">12 January at 12:00</p>
                         </div>
                     </div>
                     <div className="dropdown">
-                        <a href="/" className="text-secondary btn btn-secondary-soft-hover py-1 px-2" id="cardFeedAction2" data-bs-toggle="dropdown" aria-expanded="false">
+                        <a href="/" className="text-secondary btn three-dots py-1 px-2" id="cardFeedAction2" data-bs-toggle="dropdown" aria-expanded="false">
                             <i className="bi bi-three-dots"></i>
                         </a>
                         <ul className="dropdown-menu dropdown-menu-end" aria-labelledby="cardFeedAction2">
@@ -75,7 +75,7 @@ const MainFeedCardFive = () => {
                 <div className="d-flex mb-3">
 
                     <div className="avatar avatar-xs me-2">
-                        <a href="/"> <img className="video-img rounded-circle" src={addComment} alt="" /> </a>
+                        <a href="/"> <img className="feed-comment rounded-circle" src={addComment} alt="" /> </a>
                     </div>
 
 
@@ -92,13 +92,13 @@ const MainFeedCardFive = () => {
                         <div className="d-flex">
 
                             <div className="avatar avatar-xs">
-                                <a href="/"><img className="video-img rounded-circle" src={right2} alt="" /></a>
+                                <a href="/"><img className="feed-comment rounded-circle" src={right2} alt="" /></a>
                             </div>
                             <div className="ms-2">
 
                                 <div className="bg-light rounded-start-top-0 p-3 rounded">
                                     <div className="d-flex justify-content-between">
-                                        <h6 className="mb-1"> <a href="/" className="text-decoration-none joan-text"> Frances Guerrero </a></h6>
+                                        <h6 className="mb-1"> <a href="/" className="text-decoration-none lori-ferguson"> Frances Guerrero </a></h6>
                                         <small className="ms-2">5hr</small>
                                     </div>
                                     <p className="small mb-0">Preference any astonished unreserved Mrs.</p>
@@ -124,13 +124,13 @@ const MainFeedCardFive = () => {
                                 <div className="d-flex">
 
                                     <div className="avatar avatar-xs">
-                                        <a href="/"><img className="video-img rounded-circle" src={lori} alt="" /></a>
+                                        <a href="/"><img className="feed-comment rounded-circle" src={lori} alt="" /></a>
                                     </div>
 
                                     <div className="ms-2">
                                         <div className="bg-light p-3 rounded">
                                             <div className="d-flex justify-content-between">
-                                                <h6 className="mb-1"> <a href="/" className="text-decoration-none joan-text"> Lori Stevens </a> </h6>
+                                                <h6 className="mb-1"> <a href="/" className="text-decoration-none lori-ferguson"> Lori Stevens </a> </h6>
                                                 <small className="ms-2">2hr</small>
                                             </div>
                                             <p className="small mb-0">Dependent on so extremely delivered by. Yet ﻿no jokes worse her why.</p>

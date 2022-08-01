@@ -5,18 +5,18 @@ import { Apple } from '../../constant/Images';
 const AppleCard = () => {
     return (
         <div className="card">
-            <div className="card-header border-0 pb-0">
+            <div className="card-header mt-3 bg-white border-0 pb-0">
                 <div className="d-flex align-items-center justify-content-between">
                     <div className="d-flex align-items-center">
                         <div className="avatar me-2">
-                            <a href="/"> <img className="avatar-img rounded-circle" src={Apple} alt="apple-logo" /> </a>
+                            <a href="/"> <img className="feed-news-img rounded-circle" src={Apple} alt="apple-logo" /> </a>
                         </div>
                         <div>
-                            <h6 className="card-title mb-0"> <a href="/" className="text-decoration-none apple"> Apple Education </a></h6>
+                            <h6 className="card-title mb-0"> <a href="/" className="text-decoration-none lori-ferguson"> Apple Education </a></h6>
                             <p className="mb-0 small">9 November at 23:29</p>
                         </div>
                     </div>
-                    <a href="/" className="text-secondary btn btn-secondary-soft-hover py-1 px-2" id="cardShareAction5" data-bs-toggle="dropdown" aria-expanded="false">
+                    <a href="/" className="text-secondary btn three-dots py-1 px-2" id="cardShareAction5" data-bs-toggle="dropdown" aria-expanded="false">
                         <i className="bi bi-three-dots"></i>
                     </a>
                     <ul className="dropdown-menu dropdown-menu-end" aria-labelledby="cardShareAction5">
