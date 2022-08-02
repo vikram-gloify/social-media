@@ -584,6 +584,15 @@ textarea {
 
 /* Main Content Section Exit */
 
+.slider-img {
+    width: 100px;
+    height: 150px;
+    border-radius: 5px;
+}
+
+.border-dash {
+    border: #ced4da dashed 1px;
+}
 
 
 @media (min-width: 320px) {
