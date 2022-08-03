@@ -582,10 +582,10 @@ textarea {
     border: #0d6efd 2px solid;
 }
 
-/* Main Content Section Exit */
+/* Slider Story */
 
 .slider-img {
-    width: 100px;
+    width: 100%;
     height: 150px;
     border-radius: 5px;
 }
@@ -594,6 +594,121 @@ textarea {
     border: #ced4da dashed 1px;
 }
 
+#slider-react-carousel {
+    align-items: center !important;
+    margin-top: -20px;
+    padding-left: 10px;
+    font-size: 12px;
+}
+
+.slider-react-post {
+    align-items: center !important;
+    padding-top: 10px;
+    font-size: 14px;
+
+}
+
+#icon-bg {
+    background-color: #ced4da;
+    color: #14191e;
+
+}
+
+
+.icon-poster {
+    align-items: center !important;
+    height: 2.5rem;
+    width: 2.5rem;
+    font-size: 0.9em;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Main Content Section Exit */
+
+/* scroll Btn */
+.btn-icon-left {
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+    position: absolute;
+    background-color: #0d6dfd81;
+    color: #ffffff;
+    border: none;
+}
+
+.btn-icon-left:hover {
+    position: absolute;
+    background-color: #0f6fec;
+    color: #ffffff;
+    border: none;
+}
+
+.btn-icon-right {
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+    position: absolute;
+    background-color: #0d6dfd81;
+    color: #ffffff;
+    border: none;
+    z-index: 2;
+}
+
+.btn-icon-right:hover {
+    position: absolute;
+    background-color: #0f6fec;
+    color: #ffffff;
+    border: none;
+    z-index: 2;
+}
+
+
+
+/* scroll Btn Exit*/
+
+.slick-prev {
+    margin-left: 25px;
+    z-index: 2 !important;
+
+}
+
+
+.slick-next {
+    margin-right: 40px;
+    z-index: 2 !important;
+
+}
+
+
+/* .prev-slick-arrow {} */
+.button i {
+    width: 200px;
+    padding: 12px 48px;
+    text-align: center;
+    background-color: #0f6fec;
+    color: #ffffff;
+    z-index: 1;
+}
+
+.card:hover .button {
+    opacity: 1;
+}
+
+
+.slick-next:before,
+.slick-prev:before {
+    content: "" !important;
+
+}
+
+.next-slick-arrow,
+.prev-slick-arrow {
+    font-size: 20px;
+    background-color: #0f6fec;
+    color: #ffffff;
+}
 
 @media (min-width: 320px) {
     .profile-avatar {

@@ -8,15 +8,32 @@ export default class Responsive extends Component {
             speed: 500,
             slidesToShow: 3,
             slidesToScroll: 1,
-            arrows: false,
             autoplay: true,
+            nextArrow: (
+                <div>
+                    <div className="next-slick-arrow">
+                        <button className="btn-icon-right">
+                            <i className="fa-solid fa-angle-right"></i>
+                        </button>
+                    </div>
+                </div>
+            ),
+            prevArrow: (
+                <div>
+                    <div className="prev-slick-arrow">
+                        <button className="btn-icon-left">
+                            <i className="fa-solid fa-angle-left"></i>
+                        </button>
+                    </div>
+                </div>
+            ),
             responsive: [
                 {
                     breakpoint: 1024,
                     settings: {
                         slidesToShow: 3,
                         slidesToScroll: 1,
-                        autoplay: true
+
                     }
                 },
                 {
@@ -24,27 +41,27 @@ export default class Responsive extends Component {
                     settings: {
                         slidesToShow: 2,
                         slidesToScroll: 1,
-                        autoplay: true
+
                     }
                 },
                 {
                     breakpoint: 480,
                     settings: {
-                        slidesToShow: 1.1,
-                        slidesToScroll: 1,
-                        autoplay: true
+                        slidesToShow: 1,
+                        slidesToScroll: 1
                     }
                 }
             ]
         };
         return (
             <div className="card">
-                <div className="card-header bg-white  d-flex justify-content-between align-items-center border-0 pb-0">
+                <div className="card-header bg-white active d-flex justify-content-between align-items-center border-0 pb-0">
                     <h6 className="card-title lori-ferguson mb-1">People you may know</h6>
                     <a href="/" className="btn btn-sm-header btn-primary-soft">See all</a >
                 </div>
-                <Slider {...settings} className="mt-3">
-                    <div className="scroll-card ps-3 " style={{ width: `18rem` }}>
+
+                <Slider {...settings} className="mt-3 mb-3">
+                    <div className="scroll-card ps-3 " style={{ width: `15rem` }}>
                         <div className="card">
                             <div className="card-header bg-white border-0">
                                 <img src={addComment} className="scroll-img rounded-circle" alt="add-comment" />
@@ -58,7 +75,7 @@ export default class Responsive extends Component {
                             </div>
                         </div>
                     </div>
-                    <div className="scroll-card ps-3 " style={{ width: `18rem` }}>
+                    <div className="scroll-card ps-3 " style={{ width: `15rem` }}>
                         <div className="card">
                             <div className="card-header  bg-white border-0">
                                 <img src={Amanda} className="scroll-img rounded-circle" alt="Amanda" />
@@ -72,7 +89,7 @@ export default class Responsive extends Component {
                             </div>
                         </div>
                     </div>
-                    <div className="scroll-card ps-3 " style={{ width: `18rem` }}>
+                    <div className="scroll-card ps-3 " style={{ width: `15rem` }}>
 
                         <div className="card">
                             <div className="card-header  bg-white border-0">
@@ -87,7 +104,7 @@ export default class Responsive extends Component {
                             </div>
                         </div>
                     </div>
-                    <div className="scroll-card ps-3 " style={{ width: `18rem` }}>
+                    <div className="scroll-card ps-3 " style={{ width: `15rem` }}>
 
                         <div className="card">
                             <div className="card-header  bg-white border-0">
@@ -103,6 +120,7 @@ export default class Responsive extends Component {
                         </div>
                     </div>
                 </Slider>
+
 
                 <div className="card-footer bg-white border-0 mt-3">
 
