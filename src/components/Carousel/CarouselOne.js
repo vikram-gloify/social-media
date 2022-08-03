@@ -54,11 +54,12 @@ export default class MultipleItems extends Component {
             ]
 
         };
+
         return (
-            <div>
+            <div className="slick-slider">
 
 
-                <Slider {...settings}>
+                <Slider {...settings} >
                     <div className="slider-img active bg-white ps-3 carousel-item border-dash">
                         <i id="icon-bg" className=" mt-5 ms-4 fa-solid rounded-circle icon-poster fa-plus align-center"></i><h6 className="slider-react-post align-center"> Post a Story </h6>
                     </div>

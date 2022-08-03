@@ -1,0 +1,130 @@
+/* btn loader */
+
+
+.loader-btn {
+    color: #0f6fec !important;
+    background-color: rgba(15, 111, 236, 0.1) !important;
+}
+
+.loader-btn:hover {
+    color: #ffffff !important;
+    background-color: #0f6fec !important;
+}
+
+.btn-loader {
+    position: relative;
+    text-align: center;
+}
+
+.primary-soft {
+    color: #0f6fec !important;
+    background-color: rgb(224, 233, 246) !important;
+}
+
+.primary-soft:hover {
+    color: #ffffff !important;
+    background-color: #0f6fec !important;
+}
+
+.btn {
+    outline: 0;
+}
+
+.btn-load {
+    display: inline-block;
+    font-weight: 500;
+    line-height: 1.5;
+    color: #0f6fec;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-color: transparent;
+    border: 1px solid transparent;
+    padding: 0.5rem 1rem;
+    font-size: 0.9375rem;
+    border-radius: 0.4rem;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+[role=button] {
+    cursor: pointer;
+}
+
+a {
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+a {
+    color: #0f6fec;
+    text-decoration: none;
+}
+
+/* text */
+
+.btn-loader.active .load-text {
+    opacity: 0;
+    visibility: hidden;
+}
+
+.btn-loader .load-text {
+    opacity: 1;
+    visibility: visible;
+}
+
+/* icon */
+
+.btn-loader.active .load-icon {
+    display: block;
+}
+
+.btn-loader .load-icon {
+    display: none;
+    margin: 0 auto;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+/* spinner */
+
+
+.spinner-grow-sm {
+    width: 1rem !important;
+    height: 1rem !important;
+}
+
+.spinner-grow {
+    display: inline-block;
+    width: 2rem;
+    height: 2rem;
+    vertical-align: -0.125em;
+    background-color: currentColor;
+    border-radius: 50%;
+    opacity: 0;
+    -webkit-animation: 0.75s linear infinite spinner-grow;
+    animation: 0.75s linear infinite spinner-grow;
+}
+
+/* visibility */
+
+.visually-hidden,
+.visually-hidden-focusable:not(:focus):not(:focus-within) {
+    position: absolute !important;
+    width: 1px !important;
+    height: 1px !important;
+    padding: 0 !important;
+    margin: -1px !important;
+    overflow: hidden !important;
+    clip: rect(0, 0, 0, 0) !important;
+    white-space: nowrap !important;
+    border: 0 !important;
+}

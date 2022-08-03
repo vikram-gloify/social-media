@@ -597,8 +597,8 @@ textarea {
 #slider-react-carousel {
     align-items: center !important;
     margin-top: -20px;
-    padding-left: 10px;
-    font-size: 12px;
+    padding-left: 15px !important;
+    font-size: 10px;
 }
 
 .slider-react-post {
@@ -631,11 +631,26 @@ textarea {
 .btn-icon-left {
     width: 30px;
     height: 30px;
+    transform: translateX(-50px);
+    opacity: 0;
     border-radius: 5px;
     position: absolute;
     background-color: #0d6dfd81;
-    color: #ffffff;
+    color: #fefffe;
     border: none;
+}
+
+.slick-slider:hover .btn-icon-left {
+    transform: translateX(0px);
+    opacity: 1;
+    transition: all 0.5s;
+}
+
+.slick-slider:hover .btn-icon-right {
+
+    transform: translateX(0px);
+    opacity: 1;
+    transition: all 0.5s;
 }
 
 .btn-icon-left:hover {
@@ -643,6 +658,7 @@ textarea {
     background-color: #0f6fec;
     color: #ffffff;
     border: none;
+
 }
 
 .btn-icon-right {
@@ -650,10 +666,11 @@ textarea {
     height: 30px;
     border-radius: 5px;
     position: absolute;
+    transform: translateX(-50px);
+    opacity: 0;
     background-color: #0d6dfd81;
-    color: #ffffff;
+    color: #fefffe;
     border: none;
-    z-index: 2;
 }
 
 .btn-icon-right:hover {
@@ -661,7 +678,7 @@ textarea {
     background-color: #0f6fec;
     color: #ffffff;
     border: none;
-    z-index: 2;
+
 }
 
 
@@ -710,6 +727,7 @@ textarea {
     color: #ffffff;
 }
 
+
 @media (min-width: 320px) {
     .profile-avatar {
         height: 4rem;
@@ -737,6 +755,40 @@ textarea {
 
     /* Scroll Section Exit */
 
+    /* story section */
+    #slider-react-carousel {
+        align-items: center !important;
+        margin-top: -20px;
+        padding-left: 40px;
+        font-size: 14px;
+    }
+
+    .slider-react-post {
+        align-items: center !important;
+        padding-top: 10px;
+        padding-left: 20px;
+        font-size: 14px;
+
+    }
+
+    #icon-bg {
+        background-color: #ced4da;
+        color: #14191e;
+
+    }
+
+
+    .icon-poster {
+        align-items: center !important;
+        height: 2.5rem;
+        width: 3.5rem;
+        font-size: 0.9em;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    /* story section  Exit*/
 }
 
 @media (min-width: 360px) {
@@ -765,6 +817,14 @@ textarea {
     }
 
     /* Scroll Section Exit */
+
+    /* slider Section */
+    #slider-react-carousel {
+        align-items: center !important;
+        margin-top: -20px;
+        padding-left: 30px;
+        font-size: 14px;
+    }
 }
 
 @media (min-width: 375px) {
@@ -849,6 +909,14 @@ textarea {
     }
 
     /* Scroll Section Exit */
+
+    /* slider section */
+    #slider-react-carousel {
+        align-items: center !important;
+        margin-top: -20px;
+        padding-left: 40px;
+        font-size: 14px;
+    }
 }
 
 @media (min-width: 414px) {
@@ -963,7 +1031,7 @@ textarea {
     .lori-ferguson {
         text-decoration: none;
         color: #212529;
-        font-size: 14px;
+        font-size: 16px;
         font-weight: 700;
     }
 
@@ -1012,3 +1080,6 @@ textarea {
 
     /* Scroll Section Exit */
 }
+
+
+/* scroll Slick btn */
