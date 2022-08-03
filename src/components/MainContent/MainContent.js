@@ -91,7 +91,7 @@ const MainContent = () => {
                 </div>
                 <div className="mt-3">
                     <div className="col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
-                        {/* News Feed Section  loadBtn */}
+                        {/* News Feed Section btn loader End section*/}
                         <LoadBtn />
                     </div>
                 </div>

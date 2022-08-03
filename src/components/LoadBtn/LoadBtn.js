@@ -3,6 +3,8 @@ import './LoadBtn.css';
 
 const LoadBtn = () => {
     return (
+
+        // Button Loader Last Section
         <a href="/0" role="button" class="btn-loader btn-load primary-soft w-100 border-0 mb-3 active" data-bs-toggle="button" aria-pressed="true">
             <span class="load-text"> Load more </span>
             <div class="load-icon">

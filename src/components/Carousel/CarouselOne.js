@@ -3,14 +3,15 @@ import Slider from "react-slick";
 import { images1, images2, images3, images4, images5 } from "../../constant/Images";
 
 
-
 export default class MultipleItems extends Component {
+    // Slick Slider React use 
 
     render() {
         var settings = {
             speed: 500,
             slidesToShow: 4,
             slidesToScroll: 1,
+            // Arrow Btn Section import custom Arrow
             nextArrow: (
                 <div>
                     <div className="next-slick-arrow">
@@ -29,6 +30,7 @@ export default class MultipleItems extends Component {
                     </div>
                 </div>
             ),
+            // Responsive Section
             responsive: [
                 {
                     breakpoint: 1024,
@@ -56,8 +58,10 @@ export default class MultipleItems extends Component {
         };
 
         return (
+            // Slick Btn Hover Div Create
             <div className="slick-slider">
 
+             {/* slick Slider work Section */}
 
                 <Slider {...settings} >
                     <div className="slider-img active bg-white ps-3 carousel-item border-dash">
@@ -85,11 +89,6 @@ export default class MultipleItems extends Component {
                         <img className="slider-img" src={images5} alt="" /><h6 className="text-white style-text" id="slider-react-carousel">Lori Stevens</h6>
                     </div>
                 </Slider>
-
-
-
-
-
             </div>
         );
     }

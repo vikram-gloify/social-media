@@ -51,7 +51,7 @@ const AppleCard = () => {
                     <li className="nav-item">
                         <a className="nav-link mb-0 active" href="/"> <i className="bi bi-heart pe-1"></i>Liked (56)</a>
                     </li>
-
+                {/* dropdown  list*/}
                     <li className="nav-item dropdown">
                         <a href="/" className="nav-link mb-0" id="cardShareAction6" data-bs-toggle="dropdown" aria-expanded="false">
                             <i className="bi bi-reply-fill flip-horizontal ps-1"></i>Share (3)
